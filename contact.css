@@ -1,0 +1,33 @@
+#contact{
+    padding: 5rem;
+}
+form{
+    padding: 3rem 5rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+    background-color: #f7f3f0;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px #000;
+
+}
+.input{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    appearance: none;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.input:focus{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    appearance: none;
+    outline: none;
+    border: 1px solid #4682B4;
+}

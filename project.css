@@ -1,0 +1,17 @@
+#projects{
+    background-color: var(--biege);
+    padding: 5rem;
+}
+.my-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #c0bebe;
+}
+.my-project:nth-last-child(1){
+    border-bottom: none;
+}
+.my-project img{
+    width: 20%;
+    padding: 3rem;
+}

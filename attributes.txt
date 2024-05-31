@@ -1,0 +1,14 @@
+<a href="https://storyset.com/web">Web illustrations by Storyset</a>
+#E9E3D5
+#033043
+#FDA521
+#0A7273
+
+background-color: #e5e5f7;
+opacity: 0.3;
+background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #033043, #033043 50%, #e5e5f7 50%);
+background-size: 10px 10px;
+
+background-color: #e5e5f7;
+opacity: 0.3;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #03304355, #033043 );

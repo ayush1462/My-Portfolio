@@ -1,0 +1,86 @@
+.web-navlist{
+    display: none;
+}
+.nav-icon{
+    margin: 1rem;
+}
+.bar{
+    width: 1.8rem;
+    height: 0.3rem;
+    background: #333333;
+    margin: 0.2rem;
+    border-radius: 0.2rem;
+    transition: 0.2s ease;
+}
+.active .bar:nth-of-type(even){
+    display: none;
+}
+.active .bar:nth-child(1){
+    transform: rotate(45deg) translate(0%, 100%);
+}
+.active .bar:nth-child(3){
+    transform: rotate(-45deg) translate(0%, -100%);
+}
+.mob-nav{
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: 2s ease;
+}
+.active-nav{
+    height: 100%;
+}
+.mob-navlist li{
+    text-align: end;
+    padding: 1rem ;
+}
+#home{
+    background-image: url(/assets/img/bg-sm.svg);
+}
+.content {
+    width: 100%;
+    color: #333333;
+}
+#home h1{
+    font-size: 3rem;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+#about {
+    height: 100%;
+}
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    column-gap: 10rem;
+    padding: 5rem 0;
+}
+.section-heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.my-project {
+    padding: 2rem 0;
+    flex-direction: column;
+    text-align: center;
+
+}
+.my-project img {
+    width: 100%;
+    margin: 1rem;
+}
+
+form {
+    padding: 1rem 2rem;
+    width: 18rem;
+}
+.input {
+    margin-bottom: 1rem;
+}
+
+
