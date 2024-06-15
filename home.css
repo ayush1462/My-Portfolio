@@ -31,12 +31,7 @@ nav {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 10%;
+    width: 5%;
     height: auto;
     padding: 0.1rem;
 }
